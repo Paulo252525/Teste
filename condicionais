@@ -1,0 +1,26 @@
+//se, senao, senao se
+
+//if,else if,else
+
+let investimento = 0, valorcorrigido = 0 
+let tipoinvestimento = 0
+
+ investimento = Number(prompt("Digite o valor investido:"))
+ tipoinvestimento = Number(prompt("Qual tipo de investimento:"))
+
+
+
+
+
+if (tipoinvestimento == 1) {
+    valorcorrigido = investimento+ (investimento/100 * 5)
+}
+
+else if (tipoinvestimento == 2) {
+    valorcorrigido = investimento+ (investimento/100 * 10)
+}
+alert ("valor corrigido = "+ valorcorrigido
+)
+
+
+
